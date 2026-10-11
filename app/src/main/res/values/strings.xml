@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">客观存在</string>
+    <string name="tab_chat">聊天</string>
+    <string name="tab_pending">待处理</string>
+    <string name="tab_confirm">待确认</string>
+    <string name="tab_correct">更正</string>
+    <string name="tab_query">查询</string>
+    <string name="tab_ledger">台账</string>
+</resources>

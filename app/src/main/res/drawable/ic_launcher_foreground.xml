@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  原创矢量前景：聊天气泡 + 勾选（“说过的事已入账”）。
+  108dp 画布，全部图形落在中心 66dp 安全区内（坐标 21..87）；
+  纯几何路径，不含任何第三方图片、商标、角色或字体。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 聊天气泡外轮廓（左下带小尾巴） -->
+    <path
+        android:pathData="M34,30 L74,30 A10,10 0 0 1 84,40 L84,60 A10,10 0 0 1 74,70 L46,70 L36,80 L36,70 L34,70 A10,10 0 0 1 24,60 L24,40 A10,10 0 0 1 34,30 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- 勾选符号 -->
+    <path
+        android:pathData="M42,51 L50,59 L66,41"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

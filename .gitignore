@@ -1,0 +1,41 @@
+# 构建产物（含 APK / AAB），任何层级都忽略
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+
+# Gradle
+.gradle/
+gradle-app.setting
+
+# 本机配置：SDK 路径等，绝不入库
+local.properties
+
+# IDE
+*.iml
+.idea/
+.DS_Store
+
+# NDK
+.externalNativeBuild/
+.cxx/
+
+# 本机数据库 / 日志（名册与台账只存在设备本地，绝不入库）
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.log
+
+# 密钥/令牌（本项目从不写入仓库，这里再兜一层）
+*.keystore
+*.jks
+secrets.properties
+.env
+
+# 旧“个人图片”图标资产：已改为原创矢量自适应图标（@drawable/ic_launcher_foreground + @color/ic_launcher_background），
+# 下列 PNG 已不再被任何资源引用。这里显式排除以免误入库；文件本身建议手动删除。
+app/src/main/res/mipmap-*/ic_launcher_foreground.png
+app/src/main/res/mipmap-*/ic_launcher_background.png
